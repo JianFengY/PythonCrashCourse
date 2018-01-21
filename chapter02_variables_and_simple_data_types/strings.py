@@ -9,6 +9,11 @@ name = "aDa loVelace"
 print(name.title())  # 让每个单词首字母大写，其他字母小写
 print(name.upper())  # 全部字母大写
 print(name.lower() + "\n")  # 全部字母小写
+print(name * 2)  # 输出两次name变量的值
+name2 = name.replace("loVe", "hate")  # 字符串替换
+print(name2)
+print(name.find('e'))  # 查找第一次出现e的位置，找不到返回-1
+print(name.index('e'))  # 查找第一次出现e的位置，找不到会报错
 
 first_name = "ada"
 last_name = "lovelace"
