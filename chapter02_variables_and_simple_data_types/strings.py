@@ -14,6 +14,7 @@ name2 = name.replace("loVe", "hate")  # 字符串替换
 print(name2)
 print(name.find('e'))  # 查找第一次出现e的位置，找不到返回-1
 print(name.index('e'))  # 查找第一次出现e的位置，找不到会报错
+print(name.count('ce'))  # 计算某字符或字符串出现的次数
 
 first_name = "ada"
 last_name = "lovelace"
