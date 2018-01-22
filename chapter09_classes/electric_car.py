@@ -7,7 +7,7 @@ Created on 2018年1月21日
 
 """一组可用于表示电动汽车的类"""
 
-from car import Car  # 导入父类Car
+from chapter09_classes.car import Car  # 导入父类Car
 
 # 创建子类时，父类必须包含在当前文件中，且位于子类前面，import导入也可以
 # 定义子类时，括号内必须指定父类

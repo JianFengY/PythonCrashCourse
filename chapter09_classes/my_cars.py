@@ -4,8 +4,8 @@ Created on 2018年1月21日
 
 @author: Jeff Yang
 '''
-from car import Car
-from electric_car import ElectricCar
+from chapter09_classes.car import Car
+from chapter09_classes.electric_car import ElectricCar
 
 my_beetle = Car('volkswagen', 'beetle', 2015)
 print(my_beetle.get_descriptive_name())

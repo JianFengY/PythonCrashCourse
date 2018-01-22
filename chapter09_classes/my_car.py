@@ -5,7 +5,7 @@ Created on 2018年1月21日
 @author: Jeff Yang
 '''
 
-from car import Car  # 导入Car类，依然可以使用其所有功能
+from chapter09_classes.car import Car  # 导入Car类，依然可以使用其所有功能
 
 # 我们可以在一个py文件即一个模块例存储多个类
 # 如：可以通过from car import Car1, Car2导入Car1和Car2两个类
