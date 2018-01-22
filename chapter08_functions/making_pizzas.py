@@ -4,7 +4,7 @@ Created on 2018年1月20日
 
 @author: Jeff Yang
 '''
-import pizza  # 导入pizza模块，让python打开pizza.py文件，并将所有代码复制到当前程序中，可以使用其中定义的函数
+from chapter08_functions import pizza  # 导入pizza模块，让python打开pizza.py文件，并将所有代码复制到当前程序中，可以使用其中定义的函数
 
 # 使用import module_name导入模块，可以通过module_name.fuction_name()使用函数
 # from module_name import function_1, function_2, function_3导入模块中的函数
