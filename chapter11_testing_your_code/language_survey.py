@@ -5,7 +5,7 @@ Created on 2018年1月21日
 @author: Jeff Yang
 '''
 
-from survey import AnonymousSurvey
+from chapter11_testing_your_code.survey import AnonymousSurvey
 
 # 定义一个问题，并创建一个表示调查的AnonymousSurvey对象
 question = "What language did you first learn to speak?"

@@ -5,7 +5,7 @@ Created on 2018年1月21日
 @author: Jeff Yang
 '''
 
-from name_function import get_formatted_name
+from chapter11_testing_your_code.name_function import get_formatted_name
 
 print("Enter 'q' at any time to quit.")
 while True:

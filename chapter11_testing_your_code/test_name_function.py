@@ -7,7 +7,7 @@ Created on 2018年1月21日
 # 单元测试
 # 文件不要命名为unittest.py
 import unittest
-from name_function import get_formatted_name
+from chapter11_testing_your_code.name_function import get_formatted_name
 
 # unittest模块中常用的断言方法：
 # ==============================================

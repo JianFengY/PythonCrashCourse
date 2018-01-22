@@ -6,7 +6,7 @@ Created on 2018年1月21日
 '''
 
 import unittest
-from survey import AnonymousSurvey
+from chapter11_testing_your_code.survey import AnonymousSurvey
 
 
 class TestAnonymousSurvey(unittest.TestCase):
