@@ -32,8 +32,8 @@ print(squares)
 
 x = list(range(1, 51))
 # x.reverse()  # 直接反转列表，没有返回值
-print(x)
 y = x[::-1]  # 创建反转的列表，赋值给y
+b = list(reversed(x))  # reversed()函数返回的是一个迭代器而非list，需要使用list函数转换
 print(y)
 z = sorted(x, reverse=True)  # 逆序排序列表
 a = [random.randint(0, 50) for i in range(50)]  # 创建50个随机数的列表
