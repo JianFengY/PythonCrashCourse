@@ -44,7 +44,8 @@ for name in sorted(favorite_languages.keys()):  # 使用sorted()按首字母顺�
 
 print("\nThe following languages have been mentioned:")
 # 类似的，values()方法返回所有值的列表
-for language in set(favorite_languages.values()):  # 使用集合set可以去重，set与列表类似，但元素不会重复
+# 使用集合set可以去重，set与列表类似，但元素不会重复，元素使用{}括起
+for language in set(favorite_languages.values()):
     print(language.title())
 
 # 注意嵌套的层级最好不要太多
